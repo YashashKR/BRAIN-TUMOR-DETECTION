@@ -1,28 +1,8 @@
 # BRAIN-TUMOR-DETECTION
 
-### **1. `requirements.txt`**
+### **1. `README.md`**
 
-This file includes all necessary dependencies for your Flask app, model inference, and front-end:
-
-```
-flask
-tensorflow
-numpy
-pandas
-scikit-learn
-Pillow
-matplotlib
-gunicorn
-werkzeug
-```
-
-If you're deploying on a cloud server, you might also need `gunicorn` for production.
-
----
-
-### **2. `README.md`**
-
-````markdown
+```sh
 # Brain Tumor Detection using ResNet-50 and Flask
 
 This project is a web-based Brain Tumor Detection system that utilizes deep learning with **ResNet-50** for MRI image classification. The model is trained using TensorFlow and deployed using Flask.
@@ -41,12 +21,20 @@ This project is a web-based Brain Tumor Detection system that utilizes deep lear
 ```sh
 git clone https://github.com/yourusername/brain-tumor-detection.git
 cd brain-tumor-detection
-````
+```
 
 ### 2️⃣ Install Dependencies
 
 ```sh
 pip install -r requirements.txt
+
+flask
+tensorflow
+numpy
+pandas
+scikit-learn
+Pillow
+matplotlib
 ```
 
 ### 3️⃣ Run the Flask App
