@@ -68,9 +68,7 @@ brain-tumor-detection/
 
 ## 📸 Screenshots
 
-| Upload Image                      | Prediction Result                 |
-| --------------------------------- | --------------------------------- |
-| ![Upload](static/screenshot1.png) | ![Result](static/screenshot2.png) |
+![Image](https://github.com/user-attachments/assets/66f7d2bf-9758-4655-9b10-4e93ebf4fdec)
 
 ---
 
