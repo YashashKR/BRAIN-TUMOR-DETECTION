@@ -89,18 +89,3 @@ brain-tumor-detection/
 * Extend model training with a larger dataset.
 
 ---
-
-## 🤝 Contributing
-
-Feel free to fork this repository and submit a pull request!
-
----
-
-## 📜 License
-
-MIT License © 2025 Your Name
-
-```
-
-This README gives a professional look with clear **setup steps**, **features**, and **future enhancements**. Let me know if you want modifications! 🚀
-```
