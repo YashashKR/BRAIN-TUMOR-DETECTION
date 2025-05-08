@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Brain Tumor Detection</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+
+    <marquee class="marquee">Brain Tumor Detection</marquee>
+
+    <div class="container">
+        <div class="upload-box" id="drop-area">
+            <p>Drag & Drop</p>
+            <input type="file" id="fileInput" accept="image/*">
+            <label for="fileInput" class="upload-btn">Choose File</label>
+        </div>
+        <button class="predict-btn" onclick="predictImage()">Predict</button>
+        <div id="result"></div>
+    </div>
+
+    <script src="{{ url_for('static', filename='script.js') }}"></script>
+</body>
+</html>
